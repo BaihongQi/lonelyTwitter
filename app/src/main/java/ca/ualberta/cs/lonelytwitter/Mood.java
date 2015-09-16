@@ -8,6 +8,7 @@ import java.util.Date;
 public abstract class Mood {
     private String currentmood;
     private Date data;
+    public abstract String representMood();
 
     public Mood(String currentmood, Date data) {
         this.currentmood = currentmood;
@@ -23,9 +24,13 @@ public abstract class Mood {
         this.data = data;
     }
 
-    public abstract String representMood();
+    public String getCurrentmood() {
+        return currentmood;
+    }
 
-
+    public void setCurrentmood(String currentmood) {
+        this.currentmood = currentmood;
+    }
 
     public Mood(String currentmood) {
         this.currentmood = currentmood;

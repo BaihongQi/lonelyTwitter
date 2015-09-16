@@ -11,7 +11,7 @@ import java.util.IllegalFormatCodePointException;
 public abstract class Tweet extends Object implements Tweetable{
     private String text;
     private Date date;
-    ArrayList<Mood> moodlist;
+    private ArrayList<Mood> moodlist;
     public Tweet(String tweet, Date date) {
         text = tweet;
         this.date = date;

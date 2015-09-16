@@ -20,4 +20,8 @@ public class Sad extends Mood {
     public String representMood() {
         return "Sad";
     }
+    @Override
+    public String getCurrentmood() {
+        return "Sad" + super.getCurrentmood();
+    }
 }

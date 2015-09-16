@@ -17,6 +17,11 @@ public class Happy extends Mood{
 
     @Override
     public String representMood() {
-        return "happy";
+        return "Yes happy";
+    }
+
+    @Override
+    public String getCurrentmood() {
+        return "Happy" + super.getCurrentmood();
     }
 }
