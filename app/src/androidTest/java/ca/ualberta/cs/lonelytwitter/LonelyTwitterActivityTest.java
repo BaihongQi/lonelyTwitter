@@ -19,3 +19,8 @@ public class LonelyTwitterActivityTest extends ActivityInstrumentationTestCase2 
 
     }
 }
+/*1.write a test
+2. the test fail
+3.write code
+4.the test passes
+ */
