@@ -14,6 +14,8 @@ public class TweetList implements MyObservable{
         notifyObservers();
     }
 
+
+
     public void delete(Tweet tweet) {
         tweets.remove(tweet);
     }
